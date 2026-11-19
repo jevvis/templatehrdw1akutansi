@@ -377,8 +377,8 @@ export function OrgActivities() {
                 </div>
               </div>
 
-              <div {...hoverProps} className={`${tile} aspect-square flex items-center justify-center ${getPhotoWrapperClass([1])}`} title={t('org.1.inst')}>
-                <span className={`text-4xl sm:text-5xl font-bold tracking-widest text-[var(--muted)]/60 transition-all duration-500 ${getPhotoImageClass([1])}`}>{t('org.monogram')}</span>
+              <div {...hoverProps} className={`${tile} aspect-square ${getPhotoWrapperClass([1])}`}>
+                <img src="/galeri/org-1-6.jpg" alt={t('org.1.inst')} className={`w-full h-full object-cover transition-all duration-500 ${getPhotoImageClass([1])}`} />
               </div>
             </div>
 
